@@ -130,8 +130,8 @@ content:
         title: North Carolina State University
         caption: 2022 - 2024
         sub_title: Master's in Electrical Engineering
-        quote: >
-          Specializing in Machine Learning and Computer Vision
+        # quote: >
+        #   Specializing in Machine Learning and Computer Vision
         description: | # this will include new lines to allow paragraphs
           - Developing a robust understanding of data science principles and machine learning techniques to tackle real-world challenges.
           - Exploring optimization techniques for enhancing the performance of machine learning models, with a focus on computer vision applications.
@@ -159,7 +159,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 remote_theme: sproogen/resume-theme
