@@ -1,2 +1,172 @@
-theme: jekyll-theme-dinky
-title: Purushothaman's homepage
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Purushothaman Saravanan
+title: Graduate student at North Carolina State University
+email: psarava3@ncsu.edu
+# work_email: psarava3@ncsu.edu
+# website: 
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  Darth-Kronos
+linkedin_username: puru-s
+orcid_username: 0000-0002-4127-6535
+# instagram_username: purushothaman___
+
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+
+ Hello, I'm Purushothaman, a passionate graduate student at North Carolina State University, pursuing a master's degree in electrical engineering with a specialization in machine learning and computer vision.
+
+    As a Graduate Research Assistant under the guidance of Prof. Jiajia Li, my current focus involves delving into the intricacies of sparse tensors to enhance the efficiency of matrix multiplication. This research contributes to the broader goal of accelerating computational processes in machine learning.
+
+    Beyond my academic endeavors, I am deeply engaged in optimizing machine learning models, particularly in the realms of computer vision and large language models. My enthusiasm extends to the intersection of MLOps. I find joy in exploring and implementing strategies for deploying machine learning models effectively.
+
+    Here's a snapshot of my technical skill set:
+    - **Programming Languages:** <mark>Python, C++</mark>
+    - **Technologies:** <mark>CUDA, TensorRT, PyTorch</mark>
+    - **Cloud Platforms:** <mark>AWS</mark>
+    - **MLOps Tools:** <mark>MLFlow, Terraform, Prefect</mark>
+    
+    Driven by a curiosity for cutting-edge technologies and a commitment to advancing the field of machine learning, I am always exploring new avenues to deepen my understanding and contribute meaningfully to the world of artificial intelligence.
+
+    Feel free to connect with me if you share similar interests, or if you have exciting opportunities for collaboration and exploration. I'm enthusiastic about the limitless possibilities that the intersection of electrical engineering and machine learning presents.
+
+    **Currently, looking for Full-time opportunities in Machine Learning starting May 2024.**
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: TensorRT Custom Plugins
+        link: github.com/Darth-Kronos/trt-custom-plugins
+
+        quote: >
+          My involvement in this project allowed me to explore the depths of TensorRT and contribute to the community by providing these custom plugins.
+          
+
+        description: |
+          I played a crucial role in open-sourcing custom operators by developing plugins for TensorRT. These plugins enhance the capabilities of TensorRT with custom layers that I designed and implemented. Here are some of the notable plugins I contributed:
+            - **CosLU Plugin:** Implementing the Cosine Linear Unit (CosLU) activation function for improved neural network architectures.
+
+      - layout: top-middle
+        title: Accelerating Semantic Segmentation
+        link: github.com/Darth-Kronos/PIDNet_TensorRT
+        description: |
+          - Transformed a PyTorch-based model into optimized formats, including TorchScript, ONNX, and TensorRT
+          - Conducted a comprehensive performance assessment to measure inference speed, with the ONNX runtime and TensorRT execution provider outperforming other methods by delivering a remarkable <mark>35%</mark> performance boost compared to the original PyTorch implementation
+          - Employed NVIDIA Nsight Systems to meticulously profile the various approaches, providing deep insights into CUDA API calls and GPU utilization patterns
+
+      - layout: top-middle
+        title: Building and Deploying LLM-Powered Chatbots
+        link: github.com/Darth-Kronos/LLM-Chatbot-AWS
+        description: |
+          - Deployed highly available chatbot solutions on AWS, utilizing both AWS Elastic Kubernetes Service (EKS) and serverless models with AWS Lambda
+          - Utilized a <mark>Flan-UL2</mark> model as a SageMaker endpoint and implemented custom data retrieval tools using DynamoDB to enhance the functionality of the chatbot
+          - Implemented the agent orchestrator in <mark>AWS EKS</mark> and incorporated Horizontal Pod Autoscaling to ensure optimal performance under varying loads
+          - Managed SageMaker endpoints with automation and autoscaling policies through Amazon Controller for Kubernetes (<mark>ACK</mark>)
+
+      - layout: top-middle
+        title: New York City Taxi Trip Prediction
+        link: github.com/Darth-Kronos/mlops-101
+        description: |
+          - Developed a predictive model for taxi trip duration in New York City using the XGBoost, enabling accurate estimation of travel times and enhancing transportation efficiency
+          - Implemented experiment tracking using <mark>MLflow</mark> to record and manage model training experiments, enabling easy comparison of different model configurations and hyperparameters
+          - Orchestrated the end-to-end workflow using <mark>Prefect</mark>, ensuring seamless coordination and execution of data preprocessing, model training, and prediction tasks, streamlining the development and deployment process
+
+      # - layout: top-middle
+      #   title: New York City Taxi Trip Prediction
+      #   link: github.com/Darth-Kronos/mlops-101
+      #   description: |
+      #     - Developed a predictive model for taxi trip duration in New York City using the XGBoost, enabling accurate estimation of travel times and enhancing transportation efficiency
+      #     - Implemented experiment tracking using <mark>MLflow</mark> to record and manage model training experiments, enabling easy comparison of different model configurations and hyperparameters
+      #     - Orchestrated the end-to-end workflow using <mark>Prefect</mark>, ensuring seamless coordination and execution of data preprocessing, model training, and prediction tasks, streamlining the development and deployment process
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Graduate Research Assistant
+        # link: 
+        # link_text: boringcompany.com
+        sub_title: North Carolina State University
+        caption: December 2023 - Present
+        
+        description: | 
+           As a Graduate Research Assistant at North Carolina State University, I played a pivotal role in the development and implementation of the NDBLOCK algorithm. This innovative algorithm excels in efficiently identifying and optimizing block alignments within N-dimensional tensors. Noteworthy achievements and contributions include:
+            - Demonstrating the algorithm's efficiency through extensive testing on diverse tensors with varying sparsity rates.
+            - Incorporating OpenMP for parallelization, resulting in significant improvements in execution times.
+            - Showcasing remarkable effectiveness, especially for tensors with modes equal to or greater than 5, where the parallel implementation achieved up to a 60% reduction in execution time.
+
+            Currently, I am actively involved in advancing the algorithm's capabilities by working on migrating the implementation to GPU using CUDA. This effort aims to harness the parallel processing power of GPUs for further acceleration and improved performance.
+
+            NDBLOCK serves as a key enabler for uncovering meaningful structures within sparse tensors. By systematically identifying block alignments in N-dimensional space, the algorithm establishes a robust framework for recognizing and leveraging sparse tensor structures. This not only facilitates efficient storage and manipulation of sparse data but also forms the foundation for enhancing matrix operations in scientific applications and machine learning models.
+      
+      - layout: left
+        title: AI ML Intern
+        sub_title: Kodak Alaris
+        caption: May 2023 - August 2023
+        description: |
+          As an AI ML Intern at Kodak Alaris in Raleigh, NC, I played a key role in project management. Notable responsibilities and accomplishments include:
+          - Project manager for automating call center activities, overseeing the development of an automated email response system and an AI-assisted chatbot.
+          - Demonstrated strong leadership skills by facilitating coordination between project stakeholders and actively participating in project planning.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: North Carolina State University
+        caption: 2022 - 2024
+        sub_title: Master's in Electrical Engineering
+        quote: >
+          Specializing in Machine Learning and Computer Vision
+        description: | # this will include new lines to allow paragraphs
+          - Developing a robust understanding of data science principles and machine learning techniques to tackle real-world challenges.
+          - Exploring optimization techniques for enhancing the performance of machine learning models, with a focus on computer vision applications.
+          - Embarking on the exploration of machine learning compilers, delving into the intersection of software and machine learning infrastructure.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      In the midst of algorithms and code, here's a glimpse into my other life:
+
+      **Wanderlust in My Veins:**
+      When the compass needle points away from code, it points towards unexplored horizons. I'm a travel enthusiast, forever planning the next great adventure. Stay tuned – a travel blog might just be in the making.
+
+      **Culinary Voyager:**
+      Beyond the binary, I'm navigating the world of spices and flavors. Exploring the art of cooking has become a hobby; sometimes, I daydream about a parallel life as a chef. Any favorite recipes to share?
+
+      **TV Series Binge-Watcher:**
+      I confess to a delightful affliction – the art of binge-watching TV series. If you have a gem of a recommendation or need one yourself, let's trade secrets for the next captivating series.
+
+      **Age of Empires 2 Maestro:**
+      Amidst the sea of modern games, I'm a relic explorer in the kingdom of Age of Empires 2. A semi-pro in this classic realm, always up for a strategic duel. Any challengers for a trip down nostalgia lane?
+
+      This is me – a coder, a strategist, a culinary dreamer, and an explorer at heart.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
