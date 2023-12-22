@@ -55,8 +55,7 @@ content:
 
         quote: >
           My involvement in this project allowed me to explore the depths of TensorRT and contribute to the community by providing these custom plugins.
-          
-
+        
         description: |
           I played a crucial role in open-sourcing custom operators by developing plugins for TensorRT. These plugins enhance the capabilities of TensorRT with custom layers that I designed and implemented. Here are some of the notable plugins I contributed:
             - **CosLU Plugin:** Implementing the Cosine Linear Unit (CosLU) activation function for improved neural network architectures.
@@ -76,7 +75,7 @@ content:
           - Deployed highly available chatbot solutions on AWS, utilizing both AWS Elastic Kubernetes Service (EKS) and serverless models with AWS Lambda
           - Utilized a <mark>Flan-UL2</mark> model as a SageMaker endpoint and implemented custom data retrieval tools using DynamoDB to enhance the functionality of the chatbot
           - Implemented the agent orchestrator in <mark>AWS EKS</mark> and incorporated Horizontal Pod Autoscaling to ensure optimal performance under varying loads
-          - Managed SageMaker endpoints with automation and autoscaling policies through Amazon Controller for Kubernetes (<mark>ACK</mark>)
+          - Managed SageMaker endpoints with automation and autoscaling policies through Amazon Controller for Kubernetes <mark>ACK</mark>
 
       - layout: top-middle
         title: New York City Taxi Trip Prediction
@@ -157,10 +156,10 @@ content:
 
       This is me – a coder, a strategist, a culinary dreamer, and an explorer at heart.
 
-# Footer
-footer_show_references: true
-references_title: References on request
 
+footer_show_references: true
+references_title: |
+  Credits: modern-resume-theme-gh-pages and ChatGPT
 # Build settings
 remote_theme: sproogen/resume-theme
 
