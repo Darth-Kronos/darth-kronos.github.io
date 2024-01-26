@@ -80,16 +80,8 @@ content:
         link: github.com/Darth-Kronos/mlops-101
         description: |
           - Developed a predictive model for taxi trip duration in New York City using the XGBoost, enabling accurate estimation of travel times and enhancing transportation efficiency
-          - Implemented experiment tracking using <mark>MLflow</mark> to record and manage model training experiments, enabling easy comparison of different model configurations and hyperparameters
+          - Implemented experiment tracking using <mark>MLFlow</mark> to record and manage model training experiments, enabling easy comparison of different model configurations and hyperparameters
           - Orchestrated the end-to-end workflow using <mark>Prefect</mark>, ensuring seamless coordination and execution of data preprocessing, model training, and prediction tasks, streamlining the development and deployment process
-
-      # - layout: top-middle
-      #   title: New York City Taxi Trip Prediction
-      #   link: github.com/Darth-Kronos/mlops-101
-      #   description: |
-      #     - Developed a predictive model for taxi trip duration in New York City using the XGBoost, enabling accurate estimation of travel times and enhancing transportation efficiency
-      #     - Implemented experiment tracking using <mark>MLflow</mark> to record and manage model training experiments, enabling easy comparison of different model configurations and hyperparameters
-      #     - Orchestrated the end-to-end workflow using <mark>Prefect</mark>, ensuring seamless coordination and execution of data preprocessing, model training, and prediction tasks, streamlining the development and deployment process
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -105,11 +97,11 @@ content:
            As a Graduate Research Assistant at North Carolina State University, I played a pivotal role in the development and implementation of the NDBLOCK algorithm. This innovative algorithm excels in efficiently identifying and optimizing block alignments within N-dimensional tensors. Noteworthy achievements and contributions include:
             - Demonstrating the algorithm's efficiency through extensive testing on diverse tensors with varying sparsity rates.
             - Incorporating OpenMP for parallelization, resulting in significant improvements in execution times.
-            - Showcasing remarkable effectiveness, especially for tensors with modes equal to or greater than 5, where the parallel implementation achieved up to a 60% reduction in execution time.
+            - Showcasing remarkable effectiveness, especially for tensors with modes equal to or greater than 5, where the parallel implementation achieved up to a 75% reduction in execution time.
 
             Currently, I am actively involved in advancing the algorithm's capabilities by working on migrating the implementation to GPU using CUDA. This effort aims to harness the parallel processing power of GPUs for further acceleration and improved performance.
 
-            NDBLOCK serves as a key enabler for uncovering meaningful structures within sparse tensors. By systematically identifying block alignments in N-dimensional space, the algorithm establishes a robust framework for recognizing and leveraging sparse tensor structures. This not only facilitates efficient storage and manipulation of sparse data but also forms the foundation for enhancing matrix operations in scientific applications and machine learning models.
+            NDBLOCK serves as a key enabler for uncovering meaningful structures within sparse tensors. By systematically identifying block alignments in N-dimensional space, the algorithm establishes a robust framework for recognizing and leveraging sparse tensor structures. This not only facilitates efficient storage and manipulation of sparse data but also forms the foundation for enhancing matrix operations in scientific applications and in machine learning.
       
       - layout: left
         title: AI ML Intern
