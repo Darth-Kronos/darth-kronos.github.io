@@ -57,7 +57,7 @@ content:
           - Implemented a compiler using Flex and Bison for lexical analysis and parsing, respectively, demonstrating proficiency in parser generator tools
           - Developed an LLVM bitcode generator for a custom expression language, showcasing expertise in code generation and LLVM infrastructure
 
-      - layout: top-middle
+      - layout: left
         title: TensorRT Custom Plugins
         link: github.com/Darth-Kronos/trt-custom-plugins
 
@@ -68,7 +68,7 @@ content:
           I played a crucial role in open-sourcing custom operators by developing plugins for TensorRT. These plugins enhance the capabilities of TensorRT with custom layers that I designed and implemented. Here are some of the notable plugins I contributed:
             - **CosLU Plugin:** Implementing the Cosine Linear Unit (CosLU) activation function for improved neural network architectures.
 
-      - layout: top-middle
+      - layout: left
         title: Accelerating Semantic Segmentation
         link: github.com/Darth-Kronos/PIDNet_TensorRT
         description: |
@@ -76,7 +76,7 @@ content:
           - Conducted a comprehensive performance assessment to measure inference speed, with the ONNX runtime and TensorRT execution provider outperforming other methods by delivering a remarkable <mark>35%</mark> performance boost compared to the original PyTorch implementation
           - Employed NVIDIA Nsight Systems to meticulously profile the various approaches, providing deep insights into CUDA API calls and GPU utilization patterns
 
-      - layout: top-middle
+      - layout: left
         title: Building and Deploying LLM-Powered Chatbots
         link: github.com/Darth-Kronos/LLM-Chatbot-AWS
         description: |
@@ -85,7 +85,7 @@ content:
           - Implemented the agent orchestrator in <mark>AWS EKS</mark> and incorporated Horizontal Pod Autoscaling to ensure optimal performance under varying loads
           - Managed SageMaker endpoints with automation and autoscaling policies through Amazon Controller for Kubernetes <mark>ACK</mark>
 
-      - layout: top-middle
+      - layout: left
         title: New York City Taxi Trip Prediction
         link: github.com/Darth-Kronos/mlops-101
         description: |
@@ -136,6 +136,13 @@ content:
           - Exploring optimization techniques for enhancing the performance of machine learning models, with a focus on computer vision applications.
           - Embarking on the exploration of machine learning compilers, delving into the intersection of software and machine learning infrastructure.
 
+          Relevant courses: 
+            - Neural Networks 
+            - Advanced Machine Learning 
+            - Efficient Tensor Computation for AI
+            - Cloud Computing
+            - Computer Vision
+            - Compiler Optimization and Scheduling (Audit)
 
   - title: A Little More About Me
     layout: text
