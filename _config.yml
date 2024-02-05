@@ -35,7 +35,7 @@ about_content: | # this will include new lines to allow paragraphs
 
     Here's a snapshot of my technical skill set:
     - **Programming Languages:** <mark>Python, C++</mark>
-    - **Technologies:** <mark>CUDA, TensorRT, PyTorch</mark>
+    - **Technologies:** <mark>PyTorch, TensorRT, ONNX, CUDA, OpenMP, LLVM </mark>
     - **Cloud Platforms:** <mark>AWS</mark>
     - **MLOps Tools:** <mark>MLFlow, Terraform, Prefect</mark>
 
@@ -47,6 +47,16 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Bitwise Processing Compiler
+        
+        quote: >
+          Part of Compiler Optimization Course work
+        
+        description: |
+          - Implemented a compiler using Flex and Bison for lexical analysis and parsing, respectively, demonstrating proficiency in parser generator tools
+          - Developed an LLVM bitcode generator for a custom expression language, showcasing expertise in code generation and LLVM infrastructure
+
       - layout: top-middle
         title: TensorRT Custom Plugins
         link: github.com/Darth-Kronos/trt-custom-plugins
