@@ -35,9 +35,9 @@ about_content: | # this will include new lines to allow paragraphs
 
     Here's a snapshot of my technical skill set:
     - **Programming Languages:** <mark>Python, C++</mark>
-    - **Technologies:** <mark>PyTorch, TensorRT, ONNX, CUDA, OpenMP, LLVM </mark>
+    - **Technologies:** <mark>PyTorch, ONNX, TensorRT, TVM, CUDA, OpenMP, LLVM </mark>
     - **Cloud Platforms:** <mark>AWS</mark>
-    - **MLOps Tools:** <mark>MLFlow, Terraform, Prefect</mark>
+    - **MLOps Tools:** <mark>MLFlow, Prefect</mark>
 
     Feel free to connect with me if you share similar interests, or if you have exciting opportunities for collaboration and exploration. 
 
